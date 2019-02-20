@@ -1,1 +1,3 @@
 # --- tencent-android ---
+
+-keep class com.tencent.** {*;}
