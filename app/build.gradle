@@ -16,6 +16,8 @@ android {
         versionCode VERSION_CODE
         versionName "${VERSION_NAME}"
 
+        manifestPlaceholders = [TENCENT_APP_ID: "222222"]
+
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
