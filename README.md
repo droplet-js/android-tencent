@@ -1,5 +1,8 @@
 # android-tencent
 
+[![Build Status](https://cloud.drone.io/api/badges/v7lin/android-tencent/status.svg)](https://cloud.drone.io/v7lin/android-tencent)
+[ ![Download](https://api.bintray.com/packages/v7lin/maven/tencent-android/images/download.svg) ](https://bintray.com/v7lin/maven/tencent-android/_latestVersion)
+
 ### snapshot
 
 ````
