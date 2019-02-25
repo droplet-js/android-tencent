@@ -9,6 +9,12 @@ android {
         targetCompatibility targetCompatibilityVersion
     }
 
+    lintOptions {
+        textOutput 'stdout'
+        textReport true
+        lintConfig rootProject.file('lint.xml')
+    }
+
     defaultConfig {
         minSdkVersion androidMinSdkVersion
         targetSdkVersion androidTargetSdkVersion
@@ -30,7 +36,7 @@ android {
 dependencies {
     api fileTree(include: ['*.jar'], dir: 'libs')
 
-    implementation "androidx.fragment:fragment:${androidxFragmentVersion}"
+    implementation "com.android.support:support-fragment:${androidSupportFragmentVersion}"
 }
 
 apply from: '../publish.gradle'

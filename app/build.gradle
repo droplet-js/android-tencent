@@ -9,6 +9,12 @@ android {
         targetCompatibility targetCompatibilityVersion
     }
 
+    lintOptions {
+        textOutput 'stdout'
+        textReport true
+        lintConfig rootProject.file('lint.xml')
+    }
+
     defaultConfig {
         applicationId "io.github.v7lin.tencent"
         minSdkVersion androidMinSdkVersion
@@ -39,6 +45,6 @@ dependencies {
     }
 
     testImplementation "junit:junit:${junitVersion}"
-    androidTestImplementation "androidx.test:runner:${runnerVersion}"
-    androidTestImplementation "androidx.test.espresso:espresso-core:${espressoVersion}"
+    androidTestImplementation "com.android.support.test:runner:${runnerVersion}"
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:${espressoVersion}"
 }
