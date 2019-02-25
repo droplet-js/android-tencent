@@ -24,7 +24,7 @@ android {
 
         manifestPlaceholders = [TENCENT_APP_ID: "222222"]
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
