@@ -1,7 +1,8 @@
 # android-tencent
 
 [![Build Status](https://cloud.drone.io/api/badges/v7lin/android-tencent/status.svg)](https://cloud.drone.io/v7lin/android-tencent)
-[ ![Download](https://api.bintray.com/packages/v7lin/maven/tencent-android/images/download.svg) ](https://bintray.com/v7lin/maven/tencent-android/_latestVersion)
+[![GitHub tag](https://img.shields.io/github/tag/v7lin/android-tencent.svg)](https://github.com/v7lin/android-tencent/releases)
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 
 ### snapshot
 
