@@ -35,6 +35,8 @@ steps:
   commands:
   - ./gradlew :tencent-android:clean :tencent-android:install :tencent-android:artifactoryPublish
   when:
+    branch:
+    - master
     event:
     - push
 
