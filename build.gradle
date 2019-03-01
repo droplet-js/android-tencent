@@ -112,7 +112,7 @@ subprojects {
 
         // ---
 
-        androidSupportFragmentVersion = '28.0.0'
+        androidSupportFragmentVersion = '27.1.1'
 
         // ---
 
