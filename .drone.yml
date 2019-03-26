@@ -31,7 +31,7 @@ steps:
     BINTRAY_API_KEY:
       from_secret: BINTRAY_API_KEY
     VERSION_CODE: ${DRONE_BUILD_NUMBER}
-    VERSION_NAME: 3.3.3-SNAPSHOT
+    VERSION_NAME: 3.3.3+1-SNAPSHOT
   commands:
   - ./gradlew :tencent-android:clean :tencent-android:install :tencent-android:artifactoryPublish
   when:
@@ -52,7 +52,7 @@ steps:
     BINTRAY_API_KEY:
       from_secret: BINTRAY_API_KEY
     VERSION_CODE: ${DRONE_BUILD_NUMBER}
-    VERSION_NAME: 3.3.3
+    VERSION_NAME: 3.3.3+1
   commands:
   - ./gradlew :tencent-android:clean :tencent-android:install :tencent-android:bintrayUpload
   when:
